@@ -1,7 +1,7 @@
 body{
     height: 100vh;
     box-sizing: border-box;
-    /*display: flex;*/
+    display: flex;
     place-content: center;
 
     background-color: hsl(47, 88%, 63%);
@@ -15,7 +15,7 @@ article{
 
     padding: 1.5rem;
     width: 300px;
-    height: 360px;
+    height: 450px;
 }
 
 .thumbnail{
@@ -41,10 +41,10 @@ article{
     display: flex;
     justify-content: flex-start;
 }
-.author_icon{
+/* .author_icon{
     width: 1rem;
     aspect-ratio: 1/1;
-}
+} */
 .author .name{
     margin-left: 0.8rem;
 }
