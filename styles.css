@@ -27,3 +27,11 @@ article{
     background-color: hsl(47, 88%, 63%);
     padding: 0.5rem 1rem;
 }
+.author{
+    display: flex;
+    justify-content: flex-start;
+}
+.author_icon{
+    width: 2rem;
+    height: auto;
+}
