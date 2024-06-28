@@ -1,8 +1,11 @@
 body{
     height: 100vh;
     box-sizing: border-box;
+
+    /* Align to center of the page */
     display: flex;
     align-items: center;
+    justify-content: center;
 
     background-color: hsl(47, 88%, 63%);
     font-size: 16px;
@@ -47,7 +50,7 @@ article{
 }
 .author_icon{
     width: 18px;
-    aspect-ratio: 1/1;
+    object-fit: contain;
 }
 .author .name{
     box-sizing: border-box;
