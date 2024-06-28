@@ -15,11 +15,12 @@ article{
 
     padding: 1.5rem;
     width: 300px;
-    height: autox;
+    height: auto;
 }
 
 .thumbnail{
     width: 100%;
+    border-radius: 15px;
 }
 
 .tag{
@@ -29,7 +30,7 @@ article{
 .tag span{
     background-color: hsl(47, 88%, 63%);
     padding: 0.5rem 1rem;
-    border-radius: 2px;
+    border-radius: 15px;
 }
 
 .description{
@@ -41,6 +42,9 @@ article{
     justify-content: flex-start;
 }
 .author_icon{
-    width: 1.5rem;
+    width: 1rem;
     aspect-ratio: 1/1;
+}
+.author .name{
+    margin-left: 0.8rem;
 }
