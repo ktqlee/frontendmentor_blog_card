@@ -11,11 +11,11 @@ article{
     background-color: white;
     border-radius: 25px;
     border: 2px solid hsl(0, 0%, 7%);
-    box-shadow: 3px 3px hsl(0, 0%, 7%);
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
 
     padding: 1.5rem;
     width: 300px;
-    height: 500px;
+    height: autox;
 }
 
 .thumbnail{
@@ -41,6 +41,6 @@ article{
     justify-content: flex-start;
 }
 .author_icon{
-    width: 2rem;
+    width: 1.5rem;
     aspect-ratio: 1/1;
 }
