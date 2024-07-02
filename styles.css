@@ -9,6 +9,8 @@ body{
 
     background-color: hsl(47, 88%, 63%);
     font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    font-weight: 500, 800;
 }
 article{
     background-color: white;
@@ -17,8 +19,12 @@ article{
     box-shadow: 8px 8px hsl(0, 0%, 7%);
 
     padding: 1.5rem;
-    width: 275px;
-    height: 430px;
+    width: 285px;
+    height: 450px;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .thumbnail{
@@ -28,6 +34,7 @@ article{
 
 .tag{
     display: block;
+    width:  100%;
     margin: 1.5rem 0;
 }
 .tag span{
@@ -40,7 +47,9 @@ article{
     font-size: 13px;
 }
 
+
 .description{
+    margin-top: 0;
     color: hsl(0, 0%, 50%);
 }
 
