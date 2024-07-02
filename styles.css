@@ -26,6 +26,13 @@ article{
     flex-wrap: wrap;
     align-items: center;
 }
+article:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 8px 8px hsl(232, 66%, 33%);
+    border: 2px solid hsl(232, 66%, 33%);
+    transition-duration: 0.6s;
+}
 
 .thumbnail{
     width: 100%;
